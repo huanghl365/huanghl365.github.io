@@ -1,0 +1,49 @@
+{
+  "code": 0,
+  "msg": "",
+  "count": 1000,
+  "data": [
+    {
+      "id": 1,
+      "username": "超级用户",
+      "description": "拥有系统全部权限",
+	  "group": 1,
+      "status": 1
+    },
+    {
+      "id": 2,
+      "username": "管理层",
+      "description": "看到所有订单状况和编辑权限",
+	  "group": 2,
+      "status": 1
+    },
+	{
+	  "id": 3,
+	  "username": "业务员",
+	  "description": "看到自己负责的客户订单情况和全部栏目编辑权限",
+	  "group": 3,
+	  "status": 1
+	},
+	{
+	  "id": 4,
+	  "username": "助理",
+	  "description": "看到自己负责的客户订单情况和全部栏目编辑权限",
+	  "group": 4,
+	  "status": 1
+	},
+	{
+	  "id": 5,
+	  "username": "物控",
+	  "description": "不能看到确认单日期，只可以编辑计划出货日期、订单完成日期和备注",
+	  "group": 5,
+	  "status": 1
+	},
+	{
+	  "id": 6,
+	  "username": "采购",
+	  "description": "不能看到确认单日期，只能查询不能编辑",
+	  "group": 6,
+	  "status": 1
+	}
+  ]
+}

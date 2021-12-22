@@ -54,17 +54,14 @@
                 <li class="layui-nav-item" lay-unselect>
                     <a href="javascript:;" data-clear="清理" class="layuimini-clear"><i class="fa fa-trash-o"></i></a>
                 </li>
-                <li class="layui-nav-item mobile layui-hide-xs" lay-unselect>
-                    <a href="javascript:;" data-check-screen="full"><i class="fa fa-arrows-alt"></i></a>
-                </li>
                 <li class="layui-nav-item layuimini-setting">
                     <a href="javascript:;">admin</a>
                     <dl class="layui-nav-child">
                         <dd>
-                            <a href="javascript:;" layuimini-content-href="page/user-setting.html" data-title="基本资料" data-icon="fa fa-gears">基本资料<span class="layui-badge-dot"></span></a>
+                            <a href="javascript:;" layuimini-content-href="page/user_setting.html" data-title="基本资料" data-icon="fa fa-gears">基本资料<span class="layui-badge-dot"></span></a>
                         </dd>
                         <dd>
-                            <a href="javascript:;" layuimini-content-href="page/user-password.html" data-title="修改密码" data-icon="fa fa-gears">修改密码</a>
+                            <a href="javascript:;" layuimini-content-href="page/user_password.html" data-title="修改密码" data-icon="fa fa-gears">修改密码</a>
                         </dd>
                         <dd>
                             <hr>
@@ -74,9 +71,12 @@
                         </dd>
                     </dl>
                 </li>
-                <li class="layui-nav-item layuimini-select-bgcolor" lay-unselect>
+				<li class="layui-nav-item mobile layui-hide-xs" lay-unselect>
+				    <a href="javascript:;" data-check-screen="full"><i class="fa fa-arrows-alt"></i></a>
+				</li>
+<!--                <li class="layui-nav-item layuimini-select-bgcolor" lay-unselect>
                     <a href="javascript:;" data-bgcolor1="配色方案"><i class="fa fa-ellipsis-v"></i></a>
-                </li>
+                </li> -->
             </ul>
         </div>
     </div>
@@ -140,7 +140,7 @@
             urlHashLocation: true,      // 是否打开hash定位
             bgColorDefault: 3,          // 主题默认配置
             multiModule: true,          // 是否开启多模块
-            menuChildOpen: false,       // 是否默认展开菜单
+            menuChildOpen: true,       // 是否默认展开菜单
             loadingTime: 0,             // 初始化加载时间
             pageAnim: true,             // iframe窗口动画
             maxTabNum: 20,              // 最大的tab打开数量

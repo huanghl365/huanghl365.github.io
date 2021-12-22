@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>layui</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../lib/layui-v2.6.3/css/layui.css" media="all">
+    <link rel="stylesheet" href="../css/public.css" media="all">
+    <style>
+        body {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+<div class="layui-form layuimini-form">
+    <div class="layui-form-item">
+        <label class="layui-form-label">客户简称</label>
+        <div class="layui-input-block">
+            <input type="text" name="client" placeholder="请输入客户简称" value="" class="layui-input">
+        </div>
+    </div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">国家</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="country" placeholder="请输入国家" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">PI/PO</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="pipo" placeholder="请输入PI/PO" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">订单日期</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="podate" placeholder="请输入订单日期" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">客户型号</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="client_item_no" placeholder="请输入客户型号" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">型号</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="item_no" placeholder="请输入型号" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">电压</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="voltage" placeholder="请输入电压" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">功率</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="power" placeholder="请输入功率" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">显指</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="cri" placeholder="请输入显指" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">色温(K)</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="cct" placeholder="请输入色温(K)" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">PF</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="pf" placeholder="请输入PF" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">光效</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="efficacy" placeholder="请输入光效" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">LED</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="led" placeholder="请输入LED" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">驱动</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="driver" placeholder="请输入驱动" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">灯体颜色</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="body_color" placeholder="请输入灯体颜色" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">安装方式</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="installation" placeholder="请输入安装方式" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">材料</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="material" placeholder="请输入材料" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">尺寸(mm)</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="size" placeholder="请输入尺寸" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">数量</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="qty" placeholder="请输入数量" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">包装</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="packing" placeholder="请输入包装" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">质保</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="warranty" placeholder="请输入质保" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">光束角</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="beam_angle" placeholder="请输入光束角" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">IP</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="ip" placeholder="请输入IP" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">计划出货日期</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="planned_ship_date" placeholder="请输入计划出货日期" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">确认交货日期</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="confirm_delivery_date" placeholder="请输入确认交货日期" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">实际完成日期</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="actual_finish_date" placeholder="请输入实际完成日期" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">实际出货日期</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="actual_ship_date" placeholder="请输入实际出货日期" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">出货数量</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="shipped_qty" placeholder="请输入出货数量" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">出货方式</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="shipping_method" placeholder="请输入出货方式" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">是否结案</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="case_close" placeholder="请输入是否结案" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">样品是否收费</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="sample_charged" placeholder="请输入样品是否收费" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">是否收款</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="collection" placeholder="请输入是否收款" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">到货时间</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="arrival_time" placeholder="请输入到货时间" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">质量问题</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="quality_issue" placeholder="请输入质量问题" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">业务员</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="salesman" placeholder="请输入业务员" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">跟单员</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="merchandiser" placeholder="请输入跟单员" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">是否有提单和底单</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="lading_bill" placeholder="请输入是否有提单和底单" value="" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+	    <label class="layui-form-label">提单和底单备注</label>
+	    <div class="layui-input-block">
+	        <input type="text" name="lading_bill_remark" placeholder="请输入提单和底单备注" value="" class="layui-input">
+	    </div>
+	</div>
+    <div class="layui-form-item layui-form-text">
+        <label class="layui-form-label">订单备注</label>
+        <div class="layui-input-block">
+            <textarea name="order_remark" class="layui-textarea" placeholder="请输入订单备注"></textarea>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn layui-btn-normal" lay-submit lay-filter="saveBtn">确认保存</button>
+        </div>
+    </div>
+</div>
+<script src="../lib/layui-v2.6.3/layui.js" charset="utf-8"></script>
+<script>
+    layui.use(['form'], function () {
+        var form = layui.form,
+            layer = layui.layer,
+            $ = layui.$;
+
+        //监听提交
+        form.on('submit(saveBtn)', function (data) {
+            var index = layer.alert(JSON.stringify(data.field), {
+                title: '最终的提交信息'
+            }, function () {
+
+                // 关闭弹出层
+                layer.close(index);
+
+                var iframeIndex = parent.layer.getFrameIndex(window.name);
+                parent.layer.close(iframeIndex);
+
+            });
+
+            return false;
+        });
+
+    });
+</script>
+</body>
+</html>

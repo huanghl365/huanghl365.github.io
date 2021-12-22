@@ -1,0 +1,25 @@
+{
+  "code": 0,
+  "msg": "",
+  "count": 1000,
+  "data": [
+    {
+      "id": 1,
+      "username": "admin",
+      "nickname": "李四",
+      "phone": "17620922234",
+      "email": "1234567@qq.com",
+      "group": "超级用户",
+      "status": 1
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "nickname": "张三",
+      "phone": "17620922234",
+      "email": "1234567@qq.com",
+      "group": "管理层",
+      "status": 1
+    }
+  ]
+}

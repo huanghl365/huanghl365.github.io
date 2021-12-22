@@ -1,10 +1,10 @@
 {
   "homeInfo": {
-    "title": "首页",
-    "href": "page/welcome.html?t=1"
+    "title": "新录入订单",
+    "href": "page/order_list_new.html"
   },
   "logoInfo": {
-    "title": "管理系统",
+    "title": "OPEN ORDER",
     "image": "images/logo.png",
     "href": ""
   },
@@ -16,22 +16,62 @@
       "target": "_self",
       "child": [
 		{
-		  "title": "产品管理",
-		  "href": "page/product_list.html",
+		  "title": "订单管理",
+		  "href": "",
 		  "icon": "fa fa-bar-chart",
-		  "target": "_self"
+		  "target": "_self",
+		  "child": [
+			{
+			  "title": "全部订单",
+			  "href": "page/order_list_all.html",
+			  "icon": "fa fa-list-alt",
+			  "target": "_self"
+			},
+			{
+			  "title": "已出货订单",
+			  "href": "page/order_list_shipped.html",
+			  "icon": "fa fa-files-o",
+			  "target": "_self"
+			},			
+			{
+			  "title": "未出货订单",
+			  "href": "page/order_list_unshipped.html",
+			  "icon": "fa fa-clipboard",
+			  "target": "_self"
+			},
+		    {
+		      "title": "录入订单",
+		      "href": "page/order_add.html",
+		      "icon": "fa fa-plus-square",
+		      "target": "_self"
+		    }
+		  ]
 		},
         {
-          "title": "用户管理",
-          "href": "page/user_list.html",
-          "icon": "fa fa-user",
-          "target": "_self"
-        },
-        {
           "title": "系统设置",
-          "href": "page/setting.html",
+          "href": "",
           "icon": "fa fa-gears",
-          "target": "_self"
+          "target": "_self",
+		  "child": [
+			{
+			  "title": "用户管理",
+			  "href": "page/user_list.html",
+			  "icon": "fa fa-user",
+			  "target": "_self"
+			},
+			{
+			  "title": "角色管理",
+			  "href": "page/role_list.html",
+			  "icon": "fa fa-user-secret",
+			  "target": "_self"
+			},
+			{
+			  "title": "系统日志",
+			  "href": "page/log_list.html",
+			  "icon": "fa fa-file-text-o",
+			  "target": "_self"
+			}
+		  ]
         }
       ]
     } 
